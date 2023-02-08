@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget traker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-Classes.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- <h1 class="Heading bg-red">Calculate your budget</h1> -->
+      <div class="budget-box">
+        <p class="p-heading">Budget</p>
+        <input
+          type="text"
+          id="budget-cost"
+          class="budget-input"
+          placeholder="Enter the cost"
+        />
+        <button class="budget-btn" id="budget-btn">Set Budget</button>
+      </div>
+      <div class="budget-box">
+        <p class="p-heading">Expenses</p>
+        <input
+          type="text"
+          id="expense-name"
+          class="budget-input"
+          placeholder="Enter the expense"
+        />
+        <input
+          type="text"
+          id="expense-cost"
+          class="budget-input"
+          placeholder="Enter the cost "
+        />
+        <button class="budget-btn" id="amount-btn">Check amount</button>
+      </div>
+    </div>
+    <div class="container bar">
+      <div>
+        <p>Total budget</p>
+        <span id="budget-amount">0</span>
+      </div>
+      <div>
+        <p>Expenses</p>
+        <span id="expenses-amount">0</span>
+      </div>
+      <div>
+        <p>balance</p>
+        <span id="balance-amount">0</span>
+      </div>
+    </div>
+    <div class="list" id="list-id">
+      <p>Expense list</p>
+
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+  <script
+    src="https://kit.fontawesome.com/27e2260fd3.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
